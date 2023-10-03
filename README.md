@@ -12,6 +12,25 @@ This is a simple calculator app built using the KivyMD framework. It provides ba
 
 ## Screenshots
 ![App Screenshot](https://github.com/ayobami1/Kivymd-Calculator/blob/main/Screenshot/Screen%20Shot%202023-10-04%20at%2012.02.06%20AM.png)
+### You can use the Color Picker API to change color Directly
+![change Color](https://github.com/ayobami1/Kivymd-Calculator/blob/main/Screenshot/Screen%20Shot%202023-10-04%20at%2012.08.17%20AM.png)
+
+![App ScreenShot](https://github.com/ayobami1/Kivymd-Calculator/blob/main/Screenshot/Screen%20Shot%202023-10-04%20at%2012.08.08%20AM.png)
+
+### From this Line you can change the button
+```python
+  for btn_txt in button:
+                self.btn_lyt = MDFlatButton(
+                    # text = btn_txt,
+                    text =f"[b]{btn_txt}[/b]",
+                    text_color = (0, 0, 0, 1),  # Dark yellow color
+                    theme_text_color = "Primary",
+                    on_press= lambda x, btn=btn_txt:self.button_press(btn, x)
+                    # on_press= lambda btn_txt:self.button_press(btn_txt),
+                    # on_press=partial(self.button_press, btn_txt)
+```
+![App ScreenShot](https://github.com/ayobami1/Kivymd-Calculator/blob/main/Screenshot/Screen%20Shot%202023-10-04%20at%2012.07.17%20AM.png)
+
 
 ## Prerequisites
 - [Python](https://www.python.org/downloads/) installed on your system
