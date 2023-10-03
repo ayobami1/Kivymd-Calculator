@@ -1,5 +1,5 @@
 ##########################
-# BUILD MY FIRST KIVYMD APP
+# KIVYMD CALCULATOR
 ########################
 from functools import partial
 
