@@ -35,8 +35,29 @@ This is a simple calculator app built using the KivyMD framework. It provides ba
 ## Prerequisites
 - [Python](https://www.python.org/downloads/) installed on your system
 - [KivyMD](https://github.com/kivymd/KivyMD) library
+- [Kivy](https://kivy.org/)
 
 ## Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/kivymd-calculator.git
+   ```
+2. `cd kivymd-calculator``
+3. `pip install kivymd kivy`
+
+## Usage 
+```python
+python main.py
+```
+## Contributing
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+
+Fork the project
+Create your feature branch: git checkout -b feature/new-feature
+Commit your changes: git commit -m 'Add some feature'
+Push to the branch: git push origin feature/new-feature
+Submit a pull request
+
+## Acknowledgments
+[KivyMD](https://github.com/kivymd/KivyMD)  for the KivyMD framework
+[Kivy](https://kivy.org/) for the Kivy framework
