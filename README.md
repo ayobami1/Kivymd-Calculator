@@ -40,7 +40,7 @@ This is a simple calculator app built using the KivyMD framework. It provides ba
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/kivymd-calculator.git
+   git clone https://github.com/ayobami1/Kivymd-Calculator.git
    ```
 2. `cd kivymd-calculator``
 3. `pip install kivymd kivy`
